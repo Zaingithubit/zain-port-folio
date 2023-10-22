@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+background-color: #fff;
+}
+.navbar .nav-link
+{
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: all 1s ease;
+}
+.nav-link:hover{
+    color: white !important;
+    background-color: black;
+}
+a.navbar-brand{
+    color: black ;
+    font-size: 1.25rem ;
+    font-weight: 700 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* main section styling */
+/* .main{
+    background-image: url('imges/img-1.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    height: 100vh;
+} */
+.main .img-div img{
+    width: 100%;
+    
+    height: calc(100vh - 200px);
+    background-size: cover;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(200, 20,109);
+    width: 35%;
+    line-height: 1;
+}
+.main .btn1{
+    height: 55px ;
+    width: 138px;
+    background-color: rgb(200, 20,109) ;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.main .btn1:hover{
+    background-color: rgb(150, 14, 82);
+    transition: 0.3s;
+}
+.main .btn2:hover{
+    background-color:rgb(200, 20,109) ;
+    transition: 0.3s;
+    color: white;
+}
+.main .btn2{
+    height: 55px ;
+    width: 138px;
+    background-color:transparent ;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;  
+    cursor: pointer;
+    border: 1px solid rgb(200,20,109);
+    color: rgb(200, 20,109);
+}
